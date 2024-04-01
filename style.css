@@ -4,8 +4,10 @@ body {
 }
 
 .navbar {
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.781);
   margin: 0;
+  font-size: 80%;
+  border-bottom: 2px solid rgba(180, 5, 5, 0.829);
 }
 .navi {
   display: flex;
@@ -13,7 +15,26 @@ body {
   top: 0px;
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 .li_item {
-  margin: 5px 20px 5px 20px;
+  padding: 8px 13px 8px 13px;
+  color: white;
+}
+.li_item:hover {
+  background-color: white;
+  color: black;
+}
+
+section {
+  display: flex;
+}
+
+.header {
+  background-color: rgba(255, 0, 0, 0.781);
+  flex-direction: column;
+  justify-content: center;
+}
+
+#ueberschrift_h1_1 {
 }
