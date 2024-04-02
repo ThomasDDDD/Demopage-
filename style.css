@@ -1,13 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+* {
+  font-family: "Manrope", sans-serif;
+}
+
 body {
   margin: 0;
   padding-top: 0;
 }
 
 .navbar {
-  background-color: rgba(255, 0, 0, 0.781);
+  font-family: "Manrope", sans-serif;
+  background-color: #f44336;
   margin: 0;
-  font-size: 80%;
-  border-bottom: 2px solid rgba(180, 5, 5, 0.829);
+  font-size: 75%;
+  border-bottom: 2px solid #ce372c;
 }
 .navi {
   display: flex;
@@ -18,7 +25,7 @@ body {
   margin: 0;
 }
 .li_item {
-  padding: 8px 13px 8px 13px;
+  padding: 7px 15px 7px 15px;
   color: white;
 }
 .li_item:hover {
@@ -31,10 +38,88 @@ section {
 }
 
 .header {
-  background-color: rgba(255, 0, 0, 0.781);
+  background-color: #f44336;
   flex-direction: column;
-  justify-content: center;
+  padding: 5vh 0vw 7vh 0vw;
 }
 
+.header_items {
+  font-weight: normal;
+  margin: auto;
+  color: white;
+}
 #ueberschrift_h1_1 {
+  font-size: 240%;
+}
+#header_link {
+  text-decoration: none;
+  font-size: 100%;
+}
+a:hover,
+button:hover {
+  color: greenyellow;
+}
+button:hover {
+  cursor: pointer;
+  border: 2px solid greenyellow;
+}
+
+#header_button {
+  font-size: 70%;
+  margin-top: 3vh;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: black;
+}
+
+#main_1 {
+  padding: 3vh 15vw 3vh 15vw;
+}
+
+.m1_text,
+.m2_text {
+  flex-grow: 2;
+  font-size: 60%;
+}
+h2 {
+  color: #111111;
+  font-weight: unset;
+  font-size: 200%;
+}
+.text_1 {
+  color: #444444;
+}
+.text_2 {
+  color: #959595;
+}
+
+.m1_img {
+  flex-grow: 1;
+}
+#main_2 {
+  background-color: #f1f1f1;
+  padding: 3vh 15vw 3vh 15vw;
+}
+.img {
+  margin: auto 4vw;
+}
+
+.fortune_cookie {
+  background-color: #666666;
+  color: white;
+  padding: 5vh 0vw 5vh 0vw;
+}
+.cookie {
+  margin: auto;
+}
+.footer {
+  display: flex;
+  padding: 7vh 0vw 7vh 0vw;
+}
+.sm_icons {
+  margin: auto;
+}
+i {
+  color: #666666;
+  font-size: 80%;
 }
