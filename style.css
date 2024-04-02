@@ -3,7 +3,10 @@
 * {
   font-family: "Manrope", sans-serif;
 }
-
+html {
+  max-width: 800px;
+  margin: 0 auto;
+}
 body {
   margin: 0;
   padding-top: 0;
@@ -73,12 +76,12 @@ button:hover {
 }
 
 #main_1 {
-  padding: 3vh 15vw 3vh 15vw;
+  padding: 2rem 6rem 2rem 6rem;
 }
 
 .m1_text,
 .m2_text {
-  flex-grow: 2;
+  width: 80%;
   font-size: 60%;
 }
 h2 {
@@ -93,15 +96,13 @@ h2 {
   color: #959595;
 }
 
-.m1_img {
-  flex-grow: 1;
-}
 #main_2 {
   background-color: #f1f1f1;
-  padding: 3vh 15vw 3vh 15vw;
+  padding: 2rem 6rem 2rem 6rem;
 }
 .img {
-  margin: auto 4vw;
+  margin: auto 2rem;
+  width: 20%;
 }
 
 .fortune_cookie {
